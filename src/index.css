@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* Base font size */
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(0, 0%, 20%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem; /* Base font size for the body */
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+/* Responsive width */
+ /* Max width for larger screens */
+}
+
+.time {
+  display: flex;
+  gap: 5vw; /* Responsive gap */
+  color: white;
+
+}
+
+.time h1 {
+  font-size: 2vw; /* Responsive font size */
+}
+
+.time p {
+  font-size: 2vw; /* Responsive font size */
+}
+
+.toggle {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+  gap: 1.5vw; /* Responsive gap */
+  align-items: center;
+}
+
+.toggle button {
+  border: none;
+  border-radius: 1vw; /* Responsive border-radius */
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.toggle button svg {
+  width: 2vw; /* Responsive width */
+  height: 2vw; /* Responsive height */
+}
+
+
+.main-screen {
+  margin-top: 2vw;
+  border: 0.2vw solid white;
+  padding: 3vw; /* Responsive padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Auto height to adapt content */
+  border-radius: 2vw; /* Responsive border-radius */
+ /* Full width */
+}
+
+.main-screen h1 {
+  font-size: 3vw; /* Responsive font size */
+  color: white;
+}
+
+.main-screen p {
+  font-size: 5vw; /* Responsive font size */
+  color: white;
+}
+
+.actions {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Responsive gap */
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+}
+
+.actions button {
+  margin: 3px; /* Responsive margin */
+  color: white;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.actions button svg {
+  width: 2vw; /* Responsive width */
+  height: 2vw; /* Responsive height */
+}
